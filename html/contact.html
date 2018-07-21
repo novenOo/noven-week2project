@@ -3,17 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="../style/style.css">
 	<title>Sweet Dreams Hostel-Contact</title>
 </head>
 <body>
 	<header>
 		<div>
 			<nav>
-				<a href="../home.html">SWEET<br>DREAMS<br> HOSTEL</a>
-				<a href="../home.html">About Us</a>
-				<a href="#">FAQ</a>
-				<a href="contact.html">Contact Us</a>
 				<a href="rooms.html">Book A Room</a>
+				<a href="#">FAQ</a>
+				<a href="contact.html" class="active">Contact Us</a>
+				<a href="../home.html">About Us</a>
+				<a href="../home.html">SWEET<br>DREAMS<br> HOSTEL</a>
 			</nav>
 			<img src="../images/francesca-saraco-65449-unsplash.jpg" alt="">
 		</div>
@@ -47,19 +48,20 @@
 			<img src="../images/stil-336189-unsplash.jpg" alt="">
 		</div>
 	</section>
-	<footer>
-		<div>
-			<h3>STAY IN TOUCH</h3>
-			<input type="text" name="name" placeholder="Your Name">
-			<input type="email" name="email" placeholder="Your Email">
-			<input type="submit" value="Sign me up!">
-		</div>
-		<div>
-			<i class="fab"><img src="../images/759936-200.png"></i>
-			<i class="fab fa-facebook-square"></i>
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-twitter-square"></i>
-		</div>
-	</footer>
+	<footer class="footerInput">
+			<div class="col-1">
+				<h3>STAY IN TOUCH</h3>
+				<form action="post">
+					<input type="text" name="name" placeholder="Your Name">
+				    <input type="email" name="email" placeholder="Your Email">
+				    <input type="submit" value="Sign me up!">
+				</form>
+			</div>
+			<div class="col-1 icon">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter-square"></i>
+			</div>
+		</footer>
 </body>
 </html>

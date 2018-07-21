@@ -3,129 +3,151 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.css">
 	<title>Sweet Dreams Hostel-Home</title>
 </head>
-<body>
+<body> 
+  <div class="wrapper">
 	<header>
-		<div>
 	        <nav>
-				<a href="home.html">SWEET<br>DREAMS<br> HOSTEL</a>
-				<a href="home.html">About Us</a>
-				<a href="#">FAQ</a>
-				<a href="html/contact.html">Contact Us</a>
 				<a href="html/rooms.html">Book A Room</a>
+				<a href="html/contact.html">Contact Us</a>
+				<a href="#">FAQ</a>
+				<a href="home.html" class="active">About Us</a>
 			</nav>
-			<img src="images/nik-lanus-41808-unsplash.jpg">
-			<h1>SWEET<br>DREAMS<br> HOSTEL</h1>
-             <div class="box">
-              <form action="#" method="post">
-              	<label for="Visitors">Visitors</label>
-              		<input type="text">
-              	
-              	<label for="Check-in">Check-in
-              	</label>
-              		<input type="date">
-              	<label for="Check-out">Check-out
-              	</label>
-              		<input type="date">
-                <input type="submit" value="Continue">
-              </form>
-			</div>
-		</div>
 	</header>
 	<section>
+			<h1>SWEET<br>DREAMS<br> HOSTEL</h1>
+            <div class="box">
+               <form action="#" method="post">
+	              <div>
+	              	<label for="Visitors">Visitors</label>
+	              		<input type="text" class="visitors">	
+	              </div>
+	              <div>
+	              	<label for="Check-in">Check-in</label>
+	              		<input type="date">
+	              </div>	
+	              <div>
+	              	<label for="Check-out">Check-out</label>
+	              		<input type="date">
+	              </div>
+	              	<input type="submit" value="Continue">	                              
+               </form>
+			</div>
+	</section>
+</div>
+	<section class="wrapper2">
 		<h2>OUR SERVICES</h2>
-		<div>
-			<div>
-				<i class="icon fas fa-shower"></i>
-				<h3>Hot And Cold Water</h3>
-			</div>
-			<div>
-				<i class="icon"><img src="images/vintage-key-outline.png" alt=""></i>
-				<h3>Private Lockers in Rooms</h3>
-			</div>
-			<div>
-	            <i class="fas fa-wifi"></i>
-				<h3>Wifi Access in All Rooms</h3>
-			</div>
-		</div> <!--MAIN-DIV1-->
-		<div>
-			<div>
-				<i class="icon fas fa-camera"></i>
-				<h3>Discounts On Daily Tours</h3>
-			</div>
-			<div>
-				<i class="icon far fa-credit-card"></i>
-				<h3>We Accept All Major Credit Cards</h3>
-			</div>
-			<div>
-				<i class="icon fas fa-utensils"></i>
-				<h3>Free BreakFast</h3>
-			</div>
+		    <div class="mainDiv">
+				<div class="col-1">
+					<i class="icon fas fa-shower"></i>
+					<h4>Hot And Cold Water</h4>
+				</div>
+				<div class="col-1">
+					<h4 class="icon" >	&#x1f511;</h4>
+					<h4>Private Lockers in Rooms</h4>
+				</div>
+				<div class="col-1">
+		            <i class=" icon fas fa-wifi"></i>
+					<h4>Wifi Access in All Rooms</h4>
+				</div>
+		    </div> <!--MAIN-DIV1-->
+		    <div class="mainDiv">
+				<div class="col-1">
+					<i class="icon fas fa-camera"></i>
+					<h4>Discounts On Daily Tours</h4>
+				</div>
+				<div class="col-1">
+					<i class="icon far fa-credit-card"></i>
+					<h4>We Accept All Major Credit Cards</h4>
+				</div>
+				<div class="col-1">
+					<i class="icon fas fa-utensils"></i>
+					<h4>Free BreakFast</h4>
+				</div>
 		</div><!--MAIN-DIV2-->
 	</section>
 	<section>
-		<div>
-			<div>
+		<div class="img_wrapper">
+			<div class="col-2">
 				<img src="images/sylwia-pietruszka-218324-unsplash.jpg">
 			</div>
-			<div>
-				<h1>OUR ROOMS ARE BIG AND BEAUTIFUL</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quo minus accusamus blanditiis nam, consectetur maxime temporibus, deleniti, odit eaque, eos itaque expedita. Dicta in, est maxime quia quod neque.</p>
+			<div class="col-1">
+				<h3>OUR ROOMS ARE BIG AND BEAUTIFUL</h3>
+				<p>At vero eos et accusamus ct iusto odio
+				dignissimos ducimus qui blanditiis
+				praesentium voluptatum deleniti atque
+				corrupto quos dolores et quas molestias
+				excepturi sint occaecati cupiditate non
+				provident, id est laborum et
+				dolorum fuga. Nam libero
+				tempore, cum soluta nobis est eligendi
+				optio cumque nihil impedit quo minus id
+				quod maxime placeat facere possimus,
+				Omnis voluptas assumenda est, omnis dolor
+				repellendus.. Itaque carum rerum hic
+				tenetur a sapiente delectus, ut aut
+				reiciendis voluptatibus maiores alias
+				consequatur aut perferendis doloribus
+				asperiores repellat.
+			    </p>
 				<button>See Our Rooms</button>
 			</div>
 		</div>
 	</section>
-	<section>
-		<h1>WHAT OUR GUESTS SAY...</h1>
-		<div>
-			<div>
-				<img src="images/guilherme-stecanella-587579-unsplash.jpg" alt="">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat veritatis fuga similique ad commodi, ullam voluptatum, vitae necessitatibus animi consequuntur labore, quae libero illo. Quae eaque iure, maxime enim quisquam.
-				</p>
-				<h3>
-					AMINA FROM CANADA
-				</h3>
-				<h3>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-					<i class="fas fa-star"></i>
-				</h3>
-			</div>
-			<div>
+	<section class="last-section">
+		<h2> WHAT OUR <br>
+		GUESTS SAY...</h2>
+		<div class=".img_wrapper">
+			<div class="jacob">
 				<img src="images/brooke-cagle-274465-unsplash.jpg" alt="">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat veritatis fuga similique ad commodi, ullam voluptatum, vitae necessitatibus animi consequuntur labore, quae libero illo. Quae eaque iure, maxime enim quisquam.
+					"Ther is such a great atmophere in this place. the staff and the daily tours are a lot of fun!"
 				</p>
-				<h3>
-					JACOB FROM AUSTRIA
-				</h3>
-				<h3>
+				<h4>
+					-JACOB FROM AUSTRIA
+				</h4>
+				<h4>
 					<i class="fas fa-star"></i>
 					<i class="fas fa-star"></i>
 					<i class="fas fa-star"></i>
 					<i class="fas fa-star"></i>
 					<i class="fas fa-star"></i>
-				</h3>
+				</h4>
+			</div>
+			<div class="amina">
+				<img src="images/guilherme-stecanella-587579-unsplash.jpg" class="aminaImg">
+				<p>
+					"beautifu rooms, delicious breakfast,amazing people. I would absolutely recommend this place!"
+				</p>
+				<h4>
+					-AMINA FROM CANADA
+				</h4>
+				<h4>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</h4>
 			</div>
 		</div>
 	</section>
-	<footer>
-		<div>
-			<h3>STAY IN TOUCH</h3>
-			<input type="text" name="name" placeholder="Your Name">
-			<input type="email" name="email" placeholder="Your Email">
-			<input type="submit" value="Sign me up!">
-		</div>
-		<div>
-			<i class="fab"><img src="images/759936-200.png"></i>
-			<i class="fab fa-facebook-square"></i>
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-twitter-square"></i>
-		</div>
-	</footer>
+		<footer class="footerInput">
+			<div class="col-1">
+				<h3>STAY IN TOUCH</h3>
+				<form action="post">
+					<input type="text" name="name" placeholder="Your Name">
+				    <input type="email" name="email" placeholder="Your Email">
+				    <input type="submit" value="Sign me up!" >
+				</form>
+			</div>
+			<div class="col-1 icon">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter-square"></i>
+			</div>
+		</footer>
 </body>
 </html>
