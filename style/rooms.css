@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
+/*font-family: 'Poiret One', cursive;*/
+/*font-family: 'Quicksand', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    /*border: 1px solid #333;*/
+}
+body{
+   width: 80%;
+   height:100%;
+   margin: 0 auto;
+   font-family: 'Poiret One', cursive;
+
+}
+img,iframe{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+h1, h2, h3{
+	font-family: 'Quicksand', sans-serif;
+    font-weight: lighter; 
+}
+.contain{
+  background-image:url();
+  border: 0px solid black;
+  background-size: cover;
+  padding: 0px 10px 0px 10px
+}
+header nav{
+  margin:-10px;
+  background-color: white;
+  padding: 6px 0 98px 0;;
+}
+header nav a{
+   float: right;
+   display: inline-block;
+   text-decoration: none;
+   padding:0px 20px 10px;
+   margin: 10px 15px;
+   color: #3d3d29;
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 25px;
+
+
+}
+header nav a.active, header nav a:hover {
+  border-radius: 5px;
+  border: 3px solid   #9E9589;
+    background-color: hsla(31, 33%, 30%, 0.4);
+  color: #fff;
+
+}
+.logo{
+  float: left;
+  text-align: left;
+  color: #9E9589;
+
+}
+.contactH1{
+    font-size: 41px;
+    text-align: center;
+    color: #8F8662;
+    padding: 16px 117px;
+    margin: 10px -11px 0 -12px;
+    background-color: #eee;
+    font-weight: lighter;
+    font-family: 'Poiret One', cursive;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ }
+.box{
+  padding: 30px;
+  float: right;
+  background-color: #fff;
+  width: 40%;
+  height: 400px;
+  z-index: 1;
+  margin: 40px 143px 0;
+}
+button{
+  background-color: white;
+    border-radius: 5px;
+    border: 2px solid;
+    color: #333   ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.col-1 {
+  width: 33%;
+}
+
+.col-2 {
+  width: 66%;
+}
+.box h2, .box p {
+  font-size: 20px;
+  padding: 27px;
+
+}
+/*////////////////////////////////////*/
+footer{ 
+  background-color: #524b3f;
+  padding:/* 10% 30% 0*/;
+  display: inline-block;
+  width: 100%;
+}
+.footerInput{
+  /*padding-top: 10px;*/
+   display: inline-block;
+   padding:25px;
+}
+.footerInput form{
+  float: left;
+  display: block;
+  width: 50;
+}
+.col-1 input{
+  margin-top: 10px;
+  padding:10px;
+  border: 2px solid #9E9589 ;
+  border-radius: 5px;
+}
+.icon i{
+  color: #fff;
+  margin:20px;
+  font-size: 50px;
+  float: right;
+  padding-top: 104px ;
+}

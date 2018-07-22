@@ -3,52 +3,55 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/rooms.css">
 	
 	<title>Sweet Dreams Hostel-Rooms</title>
 </head>
 <body>
 	<header>
-		<div>
+		<div class="contain">
 			<nav>
 				<a href="rooms.html" class="active">Book A Room</a>
-				<a href="contact.html">Contact Us</a>
 				<a href="#">FAQ</a>
+				<a href="contact.html">Contact Us</a>
 				<a href="../home.html">About Us</a>
-				<a href="../home.html">SWEET<br>DREAMS<br> HOSTEL</a>
+				<a href="../home.html" class="logo">SWEET<br>DREAMS<br> HOSTEL</a>
 			</nav>
-			<div>
-				<h1>FEATURED ROOMS</h1>
-			</div>
+				<div class="contactH1">
+					<h1>FEATURED ROOMS</h1>
+				</div>
 		</div>
 	</header>
-	<section>
-		<div> 
-			<img src="../images/rhema-kallianpur-560711-unsplash.jpg" alt="The Master Suit">
+	<section class="container">
+		<div class="col-1"> 
+			<img src="../images/rhema-kallianpur-560711-unsplash.jpg" alt="The Master Suit" class="masterSuit">
 		</div>
-		<div>
+		<div class="co-2 box">
 			<h2>THE MASTER SUIT</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur optio quae dolor, autem rerum, possimus placeat sequi tempora quaerat reiciendis eum odio blanditiis qui quidem, cum animi perspiciatis vel eos!
-			</p>
 			<button>Book Now</button>
+			</p>
 		</div>
 	</section>
-	<section>
-		<div>
+	<section class="container">
+		<div class="col-2 box">
 			<h2>THE JUNIOR SUIT</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum laudantium, eligendi similique eaque voluptatum nostrum nesciunt suscipit assumenda, eius sit nisi aspernatur omnis! Sed enim, iusto nam explicabo dignissimos soluta.
 			</p>
 			<button>Book Now</button>
 		</div>
-		<div>
+		<div class="col-1">
 			<img src="../images/armin-djuhic-609206-unsplash.jpg" alt="The Junior Suit">
 		</div>
 	</section>
-	<section>
+	<section class="container">
+		<!-- <div>
 		<h2>STANDARD ROOMS</h2>
-		<div>
+			
+		</div> -->
+		<div class="col-1">
 			<div>
 				<img src="../images/jilbert-ebrahimi-434201-unsplash.jpg" alt="STANDARD ROOM">
 			</div>
@@ -59,6 +62,11 @@
 				</p>
 			</div>
 			<div>
+			<button>Book Now</button>
+		     </div> 
+		</div>
+        <div class="col-1">
+			<div>
 				<img src="../images/orlova-maria-379689-unsplash.jpg" alt="STANDARD ROOM">
 			</div>
 			<div>
@@ -68,6 +76,11 @@
 				</p>
 			</div>
 			<div>
+			<button>Book Now</button>
+		     </div> 
+		    </div>
+	     <div class="col-1">
+			<div>
 				<img src="../images/sylwia-pietruszka-218324-unsplash.jpg" alt="STANDARD ROOM">
 			</div>
 			<div>
@@ -76,18 +89,18 @@
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia ea ullam velit architecto! Odit incidunt expedita, ad, maiores saepe maxime dolores explicabo, vitae sunt voluptatibus debitis. Error, cupiditate at.
 				</p>
 			</div>
-		</div>  <!-- MAIN DIV -->
-		<div>
+		    <div>
 			<button>Book Now</button>
-		</div>
-	</section>
-	<footer class="footerInput">
+		     </div> 
+		 </div>
+	    </section>
+	<footer class="container">
 			<div class="col-1">
 				<h3>STAY IN TOUCH</h3>
 				<form action="post">
-					<input type="text" name="name" placeholder="Your Name">
-				    <input type="email" name="email" placeholder="Your Email">
-				    <input type="submit" value="Sign me up!">
+					<input type="text" name="name" placeholder="Your Name" class="input">
+				    <input type="email" name="email" placeholder="Your Email" class="input">
+				    <input type="submit" value="Sign me up!" class="input" >
 				</form>
 			</div>
 			<div class="col-1 icon">
